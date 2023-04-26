@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/Header.tsx", "src/components/Sidebar.js", "src/data/dbConn.js", "src/components/QuizTable.js", "src/components/Success.js", "src/components/Error.js", "src/pages/api/hello.js", "src/components/AddQuizForm.js", "src/components/UpdateQuizForm.js", "src/components/QuizForm.js", "src/pages/Manage.js", "src/pages/Users.jsx"],
+  "exclude": ["node_modules"]
+}
