@@ -10,7 +10,7 @@ const Sidebar = ({ children }) => {
         <div className='flex'>
             <div className='fixed w-20 h-screen p-4 bg-white border-r-[1px] flex flex-col justify-between'>
                 <div className='flex flex-col items-center'>
-                    <Link href='http://localhost:3000/auth/Admin'>
+                    <Link href='https://genie-bay.vercel.app/auth/Admin'>
                         <div className='cursor-pointer bg-purple-400 p-3 rounded-lg inline-block'>
                             <SiNextdotjs className='text-amber-400' size={30} />
                         </div>

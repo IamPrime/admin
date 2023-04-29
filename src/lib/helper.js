@@ -6,7 +6,7 @@
 //const BASE_URL = 'http://localhost:3000/Admin'
 
 /** BASE_URL for working with backend */
-const BASE_URL = 'https://admin-iamprime.vercel.app'
+const BASE_URL = 'http://localhost:5000'
 
 /** Get all quizzes from the database */
 export const getAllQuizzes = async () => {
